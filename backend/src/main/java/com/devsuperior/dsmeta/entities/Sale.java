@@ -28,23 +28,23 @@ public class Sale {
 	}
 
 
-	public long getId() {
+	public Long getId() {
 		return id;
 	}
 
 
-	public void setId(long id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
 
-	public String getSellername() {
-		return getSellername();
+	public String getSellerName() {
+		return sellerName;
 	}
 
 
-	public void setSellername(String sellername) {
-		this.setSellerName(sellername);
+	public void setSellerName(String sellerName) {
+		this.sellerName = sellerName;
 	}
 
 
@@ -87,17 +87,4 @@ public class Sale {
 		this.date = date;
 	}
 
-
-	public String getSellerName() {
-		return sellerName;
-	}
-
-
-	public void setSellerName(String sellerName) {
-		this.sellerName = sellerName;
-	}
-	
-	
-	
-	
 }
